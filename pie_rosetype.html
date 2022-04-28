@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/themes/macarons.js"></script>
+
+</head>
+<body>
+    <div id="1616419d0e434ea3805fde09800f8256" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_1616419d0e434ea3805fde09800f8256 = echarts.init(
+            document.getElementById('1616419d0e434ea3805fde09800f8256'), 'macarons', {renderer: 'canvas'});
+        var option_1616419d0e434ea3805fde09800f8256 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "pie",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "slab reinforcement",
+                    "value": 5.8
+                },
+                {
+                    "name": "beam stirrups",
+                    "value": 7.06
+                },
+                {
+                    "name": "beam ribs",
+                    "value": 35.07
+                }
+            ],
+            "radius": [
+                "30%",
+                "75%"
+            ],
+            "center": [
+                "25%",
+                "50%"
+            ],
+            "roseType": "radius",
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "pie",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "slab reinforcement_per\uff08%\uff09",
+                    "value": 73.18
+                },
+                {
+                    "name": "beam stirrups_per\uff08%\uff09",
+                    "value": 14.73
+                },
+                {
+                    "name": "beam ribs_per\uff08%\uff09",
+                    "value": 12.1
+                }
+            ],
+            "radius": [
+                "30%",
+                "75%"
+            ],
+            "center": [
+                "75%",
+                "50%"
+            ],
+            "roseType": "area",
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "slab reinforcement",
+                "beam stirrups",
+                "beam ribs",
+                "slab reinforcement_per\uff08%\uff09",
+                "beam stirrups_per\uff08%\uff09",
+                "beam ribs_per\uff08%\uff09"
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "Pie-\u73ab\u7470\u56fe\u793a\u4f8b",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_1616419d0e434ea3805fde09800f8256.setOption(option_1616419d0e434ea3805fde09800f8256);
+    </script>
+</body>
+</html>
